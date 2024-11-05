@@ -7,11 +7,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
 
 
 .content-div {
     max-width: 400px;
+    top: 45px;
+    display: none;
+    padding: 10px 25px;
+}
+
+
+
+.visible {
+    display: block;
 }
 
 .tabs {
@@ -25,11 +35,21 @@ body {
 
 
 .buttons {
-    background-color: #fff;
+    background-color: #dddddd;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     padding: 10px 0;
-
     display: flex;
     justify-content: center;
+}
+
+.description {
+    color: #E0E0E0;
+    font-weight: 600;
+}
+
+.heading {
+    padding: 5px 0;
+    font-size: 24px;
+    color: #fff;
 }
