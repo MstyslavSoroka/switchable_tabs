@@ -35,10 +35,7 @@ body {
 
 
 .buttons {
-    background-color: #dddddd;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    padding: 10px 0;
+    padding: 0px 0px 10px;
     display: flex;
     justify-content: center;
 }
@@ -52,4 +49,22 @@ body {
     padding: 5px 0;
     font-size: 24px;
     color: #fff;
+}
+.btn_tabs {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+}
+
+.btn_tabs:nth-child(1) {
+    border-top-left-radius: 1rem;
+}
+
+.btn_tabs:nth-child(2) {
+    border-left: 1px solid #141414;
+    border-right: 1px solid #141414;
+}
+
+.btn_tabs:nth-child(3) {
+    border-top-right-radius: 1rem;
 }
